@@ -4,7 +4,7 @@ pragma solidity ^0.8.0;
 import "../../interfaces/notional/NotionalProxy.sol";
 import "../../interfaces/compound/ICEther.sol";
 import "../../interfaces/WETH9.sol";
-import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
+import "openzeppelin-contracts-V4/token/ERC20/ERC20.sol";
 
 library MainnetAddresses {
     NotionalProxy internal constant NotionalV2 = NotionalProxy(0x1344A36A1B56144C3Bc62E7757377D288fDE0369);

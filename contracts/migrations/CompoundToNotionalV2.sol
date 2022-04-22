@@ -7,7 +7,7 @@ import "../../interfaces/compound/ICToken.sol";
 import "../../interfaces/compound/ICErc20.sol";
 import "../../interfaces/notional/NotionalProxy.sol";
 import "../../interfaces/notional/NotionalCallback.sol";
-import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
+import "openzeppelin-contracts-V4/token/ERC20/IERC20.sol";
 
 contract CompoundToNotionalV2 is NotionalCallback {
     string public constant name = "Compound to Notional V2";

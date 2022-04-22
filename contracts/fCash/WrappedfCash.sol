@@ -9,11 +9,11 @@ import "../abstract/AllowfCashReceiver.sol";
 import "../../interfaces/notional/NotionalProxy.sol";
 import "../../interfaces/notional/IWrappedfCash.sol";
 import "../../interfaces/compound/ICToken.sol";
-import "@openzeppelin/contracts/token/ERC20/extensions/IERC20Metadata.sol";
-import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
-import "@openzeppelin/contracts/token/ERC20/utils/SafeERC20.sol";
-import "@openzeppelin/contracts/utils/Strings.sol";
-import "@openzeppelin/contracts/security/ReentrancyGuard.sol";
+import "openzeppelin-contracts-V4/token/ERC20/extensions/IERC20Metadata.sol";
+import "openzeppelin-contracts-V4/token/ERC20/IERC20.sol";
+import "openzeppelin-contracts-V4/token/ERC20/utils/SafeERC20.sol";
+import "openzeppelin-contracts-V4/utils/Strings.sol";
+import "openzeppelin-contracts-V4/security/ReentrancyGuard.sol";
 import "@openzeppelin/contracts-upgradeable/token/ERC777/ERC777Upgradeable.sol";
 
 /// @dev This implementation contract is deployed as an UpgradeableBeacon. Each BeaconProxy

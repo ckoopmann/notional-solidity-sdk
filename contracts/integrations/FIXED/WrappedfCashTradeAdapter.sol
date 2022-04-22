@@ -3,7 +3,7 @@ pragma solidity 0.8.11;
 
 import "../../../interfaces/set-protocol/IExchangeAdapter.sol";
 import {IWrappedfCashComplete as IWrappedfCash} from "../../../interfaces/notional/IWrappedfCash.sol";
-import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
+import "openzeppelin-contracts-V4/token/ERC20/IERC20.sol";
 // https://docs.tokensets.com/developers/contracts/deployed/protocol
 
 contract WrappedfCashTradeAdapter is IExchangeAdapter {

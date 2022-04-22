@@ -7,7 +7,7 @@ import "../lib/Addresses.sol";
 import "../../interfaces/notional/NotionalProxy.sol";
 import "../../interfaces/notional/NotionalCallback.sol";
 import "../../interfaces/WETH9.sol";
-import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
+import "openzeppelin-contracts-V4/token/ERC20/IERC20.sol";
 
 interface IEscrow {
     function getBalances(address account) external view returns (int256[] memory);

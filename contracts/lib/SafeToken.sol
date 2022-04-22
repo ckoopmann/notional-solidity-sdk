@@ -6,8 +6,8 @@ import "../../interfaces/compound/ICErc20.sol";
 import "../../interfaces/compound/ICEther.sol";
 import "../../interfaces/WETH9.sol";
 import "../../interfaces/IEIP20NonStandard.sol";
-import "@openzeppelin/contracts/utils/math/SafeMath.sol";
-import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
+import "openzeppelin-contracts-V4/utils/math/SafeMath.sol";
+import "openzeppelin-contracts-V4/token/ERC20/IERC20.sol";
 
 /**
  * Helper functions for interacting with tokens

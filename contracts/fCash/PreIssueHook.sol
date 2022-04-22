@@ -4,7 +4,7 @@ pragma solidity ^0.8.0;
 import "../lib/DateTime.sol";
 import "./WrappedfCashFactory.sol";
 import {IWrappedfCash} from "../../interfaces/notional/IWrappedfCash.sol";
-import "@openzeppelin/contracts/token/ERC777/IERC777.sol";
+import "openzeppelin-contracts-V4/token/ERC777/IERC777.sol";
 import "../../interfaces/set-protocol/ISetToken.sol";
 
 interface IManagerIssuanceHook {

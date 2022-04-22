@@ -4,7 +4,7 @@ pragma abicoder v2;
 
 import "./Constants.sol";
 import "./Types.sol";
-import "@openzeppelin/contracts/utils/math/SafeMath.sol";
+import "openzeppelin-contracts-V4/utils/math/SafeMath.sol";
 
 library DateTime {
     using SafeMath for uint256;

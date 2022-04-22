@@ -4,7 +4,7 @@ pragma experimental ABIEncoderV2;
 
 import "../abstract/NotionalV2FlashLiquidator.sol";
 import "../../interfaces/uniswap/v3/ISwapRouter.sol";
-import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
+import "openzeppelin-contracts-V4/token/ERC20/IERC20.sol";
 
 contract NotionalV2UniV3FlashLiquidator is NotionalV2FlashLiquidator {
     ISwapRouter public immutable UniV3SwapRouter;

@@ -7,9 +7,9 @@
     "test": "tests"
   },
   "dependencies": {
-    "@openzeppelin/contracts": "^4.5.0",
     "@openzeppelin/contracts-upgradeable": "^4.5.2",
-    "dotenv": "^10.0.0"
+    "dotenv": "^10.0.0",
+    "openzeppelin-contracts-V4": "npm:@openzeppelin/contracts@4.5"
   },
   "devDependencies": {
     "@nomiclabs/hardhat-etherscan": "^2.1.6",
