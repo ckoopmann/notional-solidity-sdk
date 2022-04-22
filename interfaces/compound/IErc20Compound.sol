@@ -2,7 +2,7 @@
 
 pragma solidity ^0.8.0;
 
-interface IErc20 {
+interface IErc20Compound {
 
     function totalSupply() external view returns (uint256);
     function balanceOf(address account) external view returns (uint256);

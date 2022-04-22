@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: BSD-3-Clause
 pragma solidity ^0.8.0;
 
-import "./IErc20.sol";
+import "./IErc20Compound.sol";
 
-interface ICErc20 is IErc20 {
+interface ICErc20 is IErc20Compound {
 
     function mint(uint mintAmount) external returns (uint);
     function redeem(uint redeemTokens) external returns (uint);

@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: BSD-3-Clause
 pragma solidity ^0.8.0;
 
-import "./ICErc20.sol";
+import "./IErc20Compound.sol";
 
-interface ICToken is ICErc20 {
+interface ICToken is IErc20Compound {
     function underlying() external view returns (address);
     function balanceOfUnderlying(address owner) external returns (uint);
     function getAccountSnapshot(address account) external view returns (uint, uint, uint, uint);

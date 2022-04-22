@@ -2,7 +2,7 @@
 pragma solidity >0.7.0;
 pragma experimental ABIEncoderV2;
 
-import "../../interfaces/compound/IErc20.sol";
+import "../../interfaces/compound/IErc20Compound.sol";
 import "../../interfaces/notional/NotionalProxy.sol";
 import "../../interfaces/compound/ICErc20.sol";
 import "../../interfaces/compound/ICEther.sol";
@@ -72,7 +72,7 @@ abstract contract NotionalV2BaseLiquidator {
         address token,
         uint16 currencyId
     ) internal {
-        uint256 amount = IErc20(token).balanceOf(address(this));
+        uint256 amount = IErc20Compound(token).balanceOf(address(this));
         SafeToken.checkAndSetMaxAllowance(token, address(NotionalV2));
         NotionalV2.depositUnderlyingToken(address(this), currencyId, amount);
     }
