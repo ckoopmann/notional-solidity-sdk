@@ -141,8 +141,6 @@ struct MarketParameters {
     uint256 oracleRate;
     // This is the timestamp of the previous trade
     uint256 previousTradeTime;
-    // Used to determine if the market has been updated
-    bytes1 storageState;
 }
 
 /// @dev Governance parameters for a cash group, total storage is 9 bytes + 7 bytes for liquidity token haircuts
